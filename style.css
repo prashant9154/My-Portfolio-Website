@@ -57,7 +57,7 @@ header::before{
     width: 100vw;
     height: 564px;
     content: "";
-    background: url("main.png") no-repeat center center/cover;
+    background: url("images/main.png") no-repeat center center/cover;
     z-index: -1;
 }
 
