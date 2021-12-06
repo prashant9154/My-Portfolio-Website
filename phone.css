@@ -1,0 +1,154 @@
+@media (max-width:1535px) {
+    header img{
+        margin-right: 30vw;
+        font-size: 5rem;
+        width: 8rem;
+    }
+}
+
+
+@media (max-width:1381px)
+{
+    #section-1 .row{
+        flex-direction: column;
+        margin: 200px 0px;
+        align-items: center;
+
+    }
+    #section-1 .row #cont{
+        margin: 0px 100px;
+        width: 70vw;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:1148px)
+{
+    header img{
+        font-size: 4rem;
+        margin: auto;
+    }
+    
+    header .row{
+        flex-direction: column;
+    }
+    header .navbar{
+        margin: 2rem 0rem 1rem 0rem;
+    }
+
+    #section-1 .row{
+        margin: 110px 0px;
+    }
+
+    #section-2 .row .posters{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #section-2 .row img{
+        width: 60%;
+        margin: 40px 0px;
+    }
+    #section-mywork img{
+        width: 40vw;
+    }
+
+    #download-resume{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    #download-resume img{
+        width: 75vw;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    #section-myresume{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:677px)
+    {
+        header ul{
+            flex-wrap: wrap;
+        }
+        #section-1 .row{
+            width: auto;
+            padding: 30px;
+            margin: auto;
+        }
+        #section-1 #landing-image img{
+            width: 47vw;
+        }
+        #section-1 .row p{
+            font-size: 1.15rem;
+        }
+        #section-3 .row p{
+            font-size: 1.1rem;
+        }
+        #section-4 .row{
+            padding: 15px 0px;
+        }
+        #section-4 .row p{
+            font-size: 1rem;
+        }
+        #section-1 .row{
+            margin: 110px auto 100px auto;
+            align-items: center;
+        }
+        footer{
+            font-size: 0.9rem;
+        }
+        #section-2 .row .posters {
+            padding: 0px;
+        }
+        #section-1 .row h1{
+            font-size: 1.8rem;
+            margin: 0px 5px;
+        }
+        #section-2 .row h1{
+            font-size: 2rem;
+            margin: 0px 5px;
+        }
+        #section-3 .row h1{
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        #section-4 .row h1{
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        #section-mywork img{
+            width: 80vw;
+        }
+        #section-mywork h1{
+            font-size: 2rem;
+        }
+        #section-myresume h1{
+            font-size: 2rem;
+            margin-bottom: 25px;
+        }
+
+        #section-myresume a{
+            font-size: 1.1rem;
+            padding: 10px 30px;
+        }
+
+    }
+
+    @media (max-width:500px)
+    {
+        #section-myresume a{
+            font-size: 12px;
+            padding: 9px 21px;
+        }
+        #tech{
+            margin-bottom: 0px;
+        }
+        #download-resume{
+            margin-bottom: 30px;
+        }
+        #download-resume img{
+            margin-bottom: 20px;
+        }
+    }
