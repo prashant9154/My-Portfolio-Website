@@ -1,9 +1,29 @@
 {
-  "dependencies": {
-    "express": "^4.17.2",
-    "hbs": "^4.2.0",
-    "mongoose": "^6.1.8",
-    "nodemon": "^2.0.15",
-    "requests": "^0.3.0"
-  }
+    "dependencies": {
+        "express": "^4.17.2",
+        "hbs": "^4.2.0",
+        "mongoose": "^6.1.8",
+        "nodemon": "^2.0.15",
+        "requests": "^0.3.0"
+    },
+    "name": "prashant",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/prashant9154/My-Portfolio-Website.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/prashant9154/My-Portfolio-Website/issues"
+    },
+    "homepage": "https://github.com/prashant9154/My-Portfolio-Website#readme",
+    "description": ""
 }
